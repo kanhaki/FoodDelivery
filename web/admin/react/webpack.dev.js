@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const webpackCommon = require('./webpack.common');
 
 const config = merge.smart(webpackCommon, {
-	mode: 'development',
 	devtool: 'eval-source-map',
 	module: {
 		rules: [
